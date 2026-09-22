@@ -608,3 +608,4 @@ code {
 .carousel-indicators li { border-color: #999; } .carousel-indicators .active { background: #0078d4; }
 .mm-pdf { width: 100%; height: 480px; border: 1px solid #ddd; }
 .mm-office { width: 100%; height: 420px; border: 1px solid #ddd; }
+.mm-tabs { border: 1px solid #ddd; border-top: 0; padding: 1em; margin-bottom: 1em; }

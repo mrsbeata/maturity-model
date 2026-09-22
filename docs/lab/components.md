@@ -21,15 +21,18 @@ Test page for components available with the current template (DocFX 2.80, Bootst
   <a class="right carousel-control" href="#mm-carousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
 </div>
 
-## 2. Tabs (DocFX syntax)
+## 2. Tabs (Bootstrap)
 
-# [Level 100](#tab/l100)
-Initial. It's switched on. Ad hoc, reactive, person-dependent.
-# [Level 300](#tab/l300)
-Defined. Documented, repeatable, owned. The level every competency should reach.
-# [Level 500](#tab/l500)
-Optimizing. Continuous improvement with feedback loops. Never finished.
----
+<ul class="nav nav-tabs" role="tablist">
+  <li class="active"><a href="#l100" data-toggle="tab">Level 100</a></li>
+  <li><a href="#l300" data-toggle="tab">Level 300</a></li>
+  <li><a href="#l500" data-toggle="tab">Level 500</a></li>
+</ul>
+<div class="tab-content mm-tabs">
+  <div class="tab-pane active" id="l100"><p>Initial. It's switched on. Ad hoc, reactive, person-dependent.</p></div>
+  <div class="tab-pane" id="l300"><p>Defined. Documented, repeatable, owned. The level every competency should reach.</p></div>
+  <div class="tab-pane" id="l500"><p>Optimizing. Continuous improvement with feedback loops. Never finished.</p></div>
+</div>
 
 ## 3. Accordion (collapse)
 
