@@ -96,7 +96,7 @@ with Joanne Klein, MVP</p>
 </ul>
 <h3>Practical scenarios</h3>
 <p>Business tasks worked through with the model, naming the Microsoft 365 features involved.</p>
-<p><a href="practical-scenarios/">Browse the practical scenarios</a></p>
+<p><a href="practical-scenarios/toc.yml">Browse the practical scenarios</a></p>
 </div></div>
 </div>
 
