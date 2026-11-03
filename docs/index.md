@@ -137,6 +137,7 @@ _disableContribution: true
 <ul>
 <li><a href="https://symp.info/MM4M365Slides">Slides archive</a>: every practitioners call</li>
 <li><a href="competencies/images/microsoft365-maturity-model--management-of-content/Management of Content - Content Lifecycle.pptx">Content Lifecycle (PowerPoint)</a>: the diagram from Management of Content</li>
+<li><a href="tools-samples/files/banner-builder.html">Banner builder</a>: banners for a competency, level, scenario or tool, as SVG</li>
 </ul>
 </div>
 </div>
