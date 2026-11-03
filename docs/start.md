@@ -9,8 +9,8 @@ _disableContribution: true
 <section class="mm-hero">
 <div class="mm-hero-text">
 <p class="mm-eyebrow">Maturity Model for Microsoft 365</p>
-<h1 class="mm-hero-title">Where is your Microsoft&nbsp;365 today?</h1>
-<p class="mm-lead">Most organizations use Microsoft 365 less fully than they could. The model gives you a shared language to say where you are, decide where you want to be, and work out what to do first.</p>
+<h1 class="mm-hero-title">See where you are.<br>Decide where to go.<br>Follow the path.</h1>
+<p class="mm-lead">The model helps you describe where your organization is today and turns everyday complaints into defined problems, with a clear path forward to grow maturity and make the business better.</p>
 <p class="mm-cta">
 <a class="mm-btn mm-btn-primary" href="overview/microsoft365-maturity-model--intro.md">Start here</a>
 <a class="mm-btn" href="tools-samples/microsoft365-maturity-model--run-workshop.md">Assess your organization</a>
@@ -23,10 +23,25 @@ _disableContribution: true
 </section>
 
 <section class="mm-facts">
-<div><strong>5</strong><span>levels</span></div>
-<div><strong>13</strong><span>competencies</span></div>
+<div><strong>Business&#8209;led</strong><span>for every role, not only IT</span></div>
 <div><strong>100%</strong><span>community-built</span></div>
 <div><strong>Free</strong><span>and open source</span></div>
+<div><strong>Tech&#8209;agnostic</strong><span>at heart, written for Microsoft 365</span></div>
+</section>
+
+<section class="mm-section mm-tone-tint" aria-labelledby="mm-what-h">
+<h2 class="mm-h2" id="mm-what-h">What is the model?</h2>
+<p class="mm-sub">Think of it the way you think of a project model. A project model gives everyone the same way to run a project. This model gives everyone the same way to describe how the organization works with its digital workplace: the culture, the challenges and the goals.</p>
+<div class="mm-what">
+<div><h3>Not only for IT</h3><p>Microsoft 365 is not something IT operations runs on its own. The model is written for the whole business: leaders, communicators, HR, information managers and IT, in language all of them can use.</p></div>
+<div><h3>From complaints to problems you can solve</h3><p>"We can never find anything" becomes a defined problem in a named competency, at a level everyone recognizes. That is something you can prioritize, fund and fix.</p></div>
+<div><h3>A clear path forward</h3><p>Each level describes what better looks like. You know the next step, why it matters, and how you will see that it worked.</p></div>
+</div>
+<ol class="mm-flow">
+<li><span class="mm-flow-num mm-bg1">1</span><strong>Investigate where you are</strong><span>Find the level that describes you today, competency by competency.</span></li>
+<li><span class="mm-flow-num mm-bg2">2</span><strong>Define the goal</strong><span>Decide where the business needs to be, and why.</span></li>
+<li><span class="mm-flow-num mm-bg3">3</span><strong>Follow the path</strong><span>Take the steps between the levels, and measure again.</span></li>
+</ol>
 </section>
 
 <section class="mm-section mm-tone-soft">
@@ -139,6 +154,8 @@ _disableContribution: true
 <div id="faq1" class="panel-collapse collapse"><div class="panel-body">No. The model is open source and written by practitioners in the Microsoft 365 &amp; Power Platform Community. For official Microsoft content, see <a href="https://learn.microsoft.com/">Microsoft 365 documentation</a>.</div></div></div>
 <div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a data-toggle="collapse" data-parent="#mm-faq" href="#faq2">Is it about features or licences?</a></h3></div>
 <div id="faq2" class="panel-collapse collapse"><div class="panel-body">No. It is led by business needs, not technology features, and written in language every role can use, not only IT. Microsoft 365 changes fast; the business competencies change slowly.</div></div></div>
+<div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a data-toggle="collapse" data-parent="#mm-faq" href="#faq6">Is it only for Microsoft 365?</a></h3></div>
+<div id="faq6" class="panel-collapse collapse"><div class="panel-body">It is written for Microsoft 365, with Microsoft 365 examples. But most of it describes how an organization works with information, people and change, so it holds up on other platforms too.</div></div></div>
 <div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a data-toggle="collapse" data-parent="#mm-faq" href="#faq3">Do we have to assess all thirteen competencies?</a></h3></div>
 <div id="faq3" class="panel-collapse collapse"><div class="panel-body">No. Start with the one that matters most to your organization right now. You can add the others later, and the result is still useful.</div></div></div>
 <div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title"><a data-toggle="collapse" data-parent="#mm-faq" href="#faq4">Should we aim for level 500 everywhere?</a></h3></div>

@@ -592,14 +592,36 @@ code {
 /* Start page (index.md). Palette = the five colors of the MM4M365 logo, one per level. */
 .mm-home { --mm1: #6A6DAD; --mm2: #03A4EF; --mm3: #F15021; --mm4: #81BB04; --mm5: #FEBB0A; --mm-ink: #24264f; --mm-soft: #f4f5fa; color: #333; }
 .mm-home section { margin: 0 0 4em 0; }
-.mm-home section.mm-section { margin: 0; padding: 4em 0; }
+.mm-home section.mm-section { margin: 0; padding: 5.5em 0; }
+.mm-home .mm-h2 { margin-bottom: .6em; }
+.mm-home .mm-sub { margin-bottom: 3em; line-height: 1.6; }
+.mm-home .mm-more { margin-top: 2.5em; }
+.mm-home .mm-step p, .mm-home .mm-tool p { margin-bottom: 1em; }
+.mm-home .mm-step h3 { margin-top: 1em; margin-bottom: .6em; }
+.mm-home .mm-level h3 { margin-top: .5em; margin-bottom: .5em; }
+.mm-home .mm-scard-body { gap: .7em; padding: 1.4em; }
+.mm-home .mm-cta { margin-top: 2em; }
+.mm-home .mm-lead { margin-top: 1.2em; }
+.mm-what { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 1.5em; }
+.mm-what > div { background: #fff; border-radius: 12px; padding: 1.8em; box-shadow: 0 2px 14px rgba(36,38,79,.09); }
+.mm-home .mm-what h3 { font-size: 1.2em; font-weight: 700; margin: 0 0 .7em 0; }
+.mm-what p { margin: 0; line-height: 1.6; }
+.mm-flow { list-style: none; padding: 0; margin: 3em 0 0 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5em; counter-reset: none; }
+.mm-flow li { position: relative; display: flex; flex-direction: column; align-items: center; text-align: center; gap: .5em; padding: 0 1em; }
+.mm-flow li:not(:last-child)::after { content: ""; position: absolute; top: 1.4em; left: calc(50% + 2.2em); right: calc(-50% + 2.2em); border-top: 3px dotted #a5a7d6; }
+.mm-flow-num { display: inline-flex; align-items: center; justify-content: center; width: 2.8em; height: 2.8em; border-radius: 50%; color: #fff; font-weight: 900; font-size: 1em; margin-bottom: .4em; }
+.mm-flow strong { color: var(--mm-ink); font-size: 1.15em; }
+.mm-flow span:last-child { color: #555; }
+.mm-hero .mm-eyebrow { margin-bottom: 1em; }
+@media (max-width: 600px) { .mm-facts strong { font-size: 1.25em; } }
+@media (max-width: 767px) { .mm-flow { grid-template-columns: 1fr; } .mm-flow li::after { display: none; } }
 .mm-home .mm-facts { padding-bottom: 3em; }
 .mm-home h2, .mm-home h3 { color: var(--mm-ink); }
 .mm-eyebrow { text-transform: uppercase; letter-spacing: .12em; font-size: .85em; font-weight: 700; color: var(--mm1); margin: 0 0 .5em 0; }
 .mm-hero { display: flex; flex-wrap: wrap; align-items: center; gap: 2em; padding: 3em 2.5em; margin-top: 1em !important; border-radius: 16px; background: radial-gradient(circle at 85% 20%, rgba(254,187,10,.18), transparent 40%), radial-gradient(circle at 70% 90%, rgba(3,164,239,.15), transparent 45%), var(--mm-soft); }
 .mm-hero-text { flex: 1 1 420px; }
 .mm-hero-art { flex: 0 1 300px; margin: 0 auto; }
-.mm-hero-title { font-size: 3.6em; line-height: 1.02; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; margin: 0 0 .4em 0; background: linear-gradient(90deg, var(--mm1), #0277b5 35%, #d0410f 60%, #5f8a00 80%, #a87700); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.mm-hero-title { font-size: 3em; line-height: 1.02; font-weight: 900; text-transform: uppercase; letter-spacing: -.01em; margin: 0 0 .4em 0; background: linear-gradient(90deg, var(--mm1), #0277b5 35%, #d0410f 60%, #5f8a00 80%, #a87700); -webkit-background-clip: text; background-clip: text; color: transparent; }
 .mm-lead { font-size: 1.25em; line-height: 1.5; max-width: 34em; color: #333; }
 .mm-cta { margin-top: 1.5em; }
 .mm-btn { display: inline-block; margin: 0 .5em .6em 0; padding: .65em 1.4em; border-radius: 999px; border: 2px solid var(--mm-ink); color: var(--mm-ink) !important; font-weight: 700; text-decoration: none !important; transition: transform .15s, box-shadow .15s; }
@@ -610,8 +632,8 @@ code {
 .mm-stairs text { font-size: 14px; font-weight: 700; fill: var(--mm-ink); }
 .mm-facts { display: flex; flex-wrap: wrap; justify-content: space-around; gap: 1em; text-align: center; margin-top: -1.5em !important; }
 .mm-facts div { flex: 1 1 140px; }
-.mm-facts strong { display: block; font-size: 2.4em; font-weight: 900; color: var(--mm-ink); line-height: 1.1; }
-.mm-facts span { color: #666; }
+.mm-facts strong { display: block; font-size: 2em; font-weight: 900; color: var(--mm-ink); line-height: 1.1; }
+.mm-facts span { color: #666; display: block; margin-top: .3em; }
 .mm-h2 { text-align: center; font-size: 2em; font-weight: 900; margin: 0 0 .3em 0; }
 .mm-sub { text-align: center; color: #666; margin: 0 auto 2em auto; max-width: 40em; }
 .mm-more { text-align: center; margin-top: 1.5em; }
@@ -725,11 +747,11 @@ header { position: sticky; top: 0; z-index: 1030; }
 @media (max-width: 991px) {
   .mm-levels { grid-template-columns: 1fr; }
   .mm-level { min-height: 0 !important; }
-  .mm-hero-title { font-size: 2.6em; }
+  .mm-hero-title { font-size: 2.4em; }
 }
 @media (max-width: 600px) {
   .mm-hero { padding: 2em 1.2em; }
-  .mm-hero-title { font-size: 2.1em; }
+  .mm-hero-title { font-size: 1.9em; }
   .mm-band { padding: 1.5em; }
   .mm-hero-art { flex-basis: 100%; max-width: 200px; }
 }
