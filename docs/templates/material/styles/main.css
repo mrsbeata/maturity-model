@@ -748,7 +748,7 @@ code {
 .mm-notice-mark { flex: 0 0 54px; width: 54px; height: 54px; }
 .mm-notice p { margin: 0; color: #444; line-height: 1.6; }
 .mm-notice .mm-notice-title { font-weight: 900; color: #24264f; font-size: 1.15em; margin-bottom: .3em; }
-@media (max-width: 600px) { .mm-notice { flex-direction: column; align-items: flex-start; } }
+@media (max-width: 600px) { .mm-notice { gap: 1em; padding: 1.2em 1.2em 1.2em 1.5em; align-items: flex-start; } .mm-notice-mark { flex-basis: 34px; width: 34px; height: 34px; } }
 .mm-home [id] { scroll-margin-top: 130px; }
 .mm-pixel { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .mm-signup { display: flex; flex-wrap: wrap; gap: .5em; margin-top: 1em; }
