@@ -1,6 +1,6 @@
 ---
 title:  Maturity Model for Microsoft 365 – Practitioners Calls Archive
-ms.date: 9/22/2026
+ms.date: 11/03/2026
 author: mrsbeata
 ms.reviewer: pamgreen
 manager: pamgreen
@@ -30,6 +30,7 @@ This page serves as an archive of all Maturity Model for Microsoft 365 Practitio
 
 ## Table of Contents
 
+- [October 2026 - Modern Compliance in Microsoft 365: Model Perspective](#modern-compliance-in-microsoft-365-model-perspective)
 - [September 2026 - Revisiting the Governance, Risk, & Compliance Competency](#revisiting-the-governance-risk--compliance-competency)
 - [June 2026 - Revisiting the People and Communities Competency](#revisiting-the-people-and-communities-competency)
 - [May 2026 - Frontier Firm: Maturity Model Perspective](#frontier-firm-maturity-model-perspective)
@@ -50,6 +51,26 @@ This page serves as an archive of all Maturity Model for Microsoft 365 Practitio
 ---
 
 ## Practitioners Calls Archive
+
+### Modern Compliance in Microsoft 365: Model Perspective
+
+October 2026 | Recording: <a href="https://www.youtube.com/watch?v=mLk3M359RZ0" target="_blank">YouTube</a>
+
+**Speaker(s):** <a href="https://www.linkedin.com/in/joannecklein/" target="_blank">Joanne Klein, MVP</a>
+
+**Summary:** Joanne Klein built on Nikki Chapple's September session, showing how specialist competencies contribute to Governance, Risk & Compliance outcomes. GRC defines the business outcome, accountability, guardrails, risk tolerance and the evidence needed; the relevant specialists design, implement and operate controls. Their operational evidence then informs GRC's assessment, and what is learned can lead to changes in the controls or requirements.
+
+Using the goal of enabling external collaboration while protecting sensitive information, Joanne illustrated how that one outcome can involve security, management of content, collaboration, identity and staff training. For a partner sharing scenario, the business should establish a valid purpose, accountable owner, known recipient, appropriate protections, an access period and expected evidence before specialists decide how to implement the controls. She emphasized that the business outcome—not a technology setting—is what connects the work across competencies.
+
+Joanne described a continuous cycle of designing, implementing, operating, and monitoring and improving controls. For example, specialists might classify sensitive information, apply labels and sharing restrictions, manage guest access and alerts, and review results to adjust controls. She argued that maturity is about whether controls are owned, operated, evidenced and improved, not simply whether features or policies have been enabled. Organizations may also be at different maturity levels across specialist areas.
+
+She distinguished configuration evidence (a control is set up), operating evidence (it actually ran), and outcome evidence (it made a meaningful difference). The strongest assurance shows whether the intended outcome was achieved—for example, only an approved partner retained access and access was removed when the engagement ended. In her view, outcome evidence helps organizations move from documented and consistently configured controls toward measured effectiveness.
+
+In the discussion, a participant asked how to engage business leaders who may see governance as an IT responsibility. Joanne recommended bringing privacy, risk or legal stakeholders into conversations based on concrete business scenarios, explaining the risks in clear business language rather than starting with technical implementation. A table of common GRC outcomes can help business leaders define what they need to mitigate, then help IT teams identify controls that support those outcomes.
+
+`Governance, Risk & Compliance`, `Security`, `Management of Content`, `Staff & Training` | [→ Back to top](#table-of-contents)
+
+---
 
 ### Revisiting the Governance, Risk, & Compliance Competency
 
