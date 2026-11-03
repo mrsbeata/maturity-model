@@ -30,7 +30,7 @@ This page serves as an archive of all Maturity Model for Microsoft 365 Practitio
 
 ## Table of Contents
 
-- [October 2026 - Connecting Specialist Competencies to GRC Outcomes](#connecting-specialist-competencies-to-grc-outcomes)
+- [October 2026 - Modern Compliance in Microsoft 365: Model Perspective](#modern-compliance-in-microsoft-365-model-perspective)
 - [September 2026 - Revisiting the Governance, Risk, & Compliance Competency](#revisiting-the-governance-risk--compliance-competency)
 - [June 2026 - Revisiting the People and Communities Competency](#revisiting-the-people-and-communities-competency)
 - [May 2026 - Frontier Firm: Maturity Model Perspective](#frontier-firm-maturity-model-perspective)
@@ -52,7 +52,7 @@ This page serves as an archive of all Maturity Model for Microsoft 365 Practitio
 
 ## Practitioners Calls Archive
 
-### Connecting Specialist Competencies to GRC Outcomes
+### Modern Compliance in Microsoft 365: Model Perspective
 
 October 2026 | Recording: <a href="https://www.youtube.com/watch?v=mLk3M359RZ0" target="_blank">YouTube</a>
 
