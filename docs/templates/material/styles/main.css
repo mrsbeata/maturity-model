@@ -749,6 +749,12 @@ code {
 .mm-notice p { margin: 0; color: #444; line-height: 1.6; }
 .mm-notice .mm-notice-title { font-weight: 900; color: #24264f; font-size: 1.15em; margin-bottom: .3em; }
 @media (max-width: 600px) { .mm-notice { flex-direction: column; align-items: flex-start; } }
+.mm-pixel { position: absolute; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
+.mm-signup { display: flex; flex-wrap: wrap; gap: .5em; margin-top: 1em; }
+.mm-signup input { flex: 1 1 180px; min-width: 0; padding: .6em 1em; border: 2px solid #c9cae3; border-radius: 999px; font: inherit; color: #24264f; }
+.mm-signup input:focus { outline: none; border-color: #6A6DAD; box-shadow: 0 0 0 3px rgba(106,109,173,.25); }
+.mm-signup .mm-btn { margin: 0; }
+.mm-signup-note { font-size: .85em; color: #666; margin-top: .6em; }
 .mm-community { margin-top: 2em; color: #666; text-align: center; }
 @media (max-width: 991px) {
   .mm-levels { grid-template-columns: 1fr; }
