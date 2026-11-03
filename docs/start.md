@@ -186,23 +186,12 @@ _disableContribution: true
 <section class="mm-section mm-tone-ink">
 <h2 class="mm-h2">Get involved</h2>
 <div class="mm-steps">
-<div class="mm-step"><span class="mm-step-num mm-bg4"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></span><h3>Join the conversation</h3><p>The questions from the calls continue in the <a href="https://www.linkedin.com/groups/10065812/">LinkedIn group</a> and on <a href="https://x.com/M365Maturity">@M365Maturity</a>.</p></div>
-<div class="mm-step"><span class="mm-step-num mm-bg5"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span><h3 id="mm-newsletter">Get the newsletter</h3><p>A recap of every call, what's coming and new resources, once a month.</p><form class="mm-signup" id="mm-signup" action="mailto:info@mm4m365.org" method="post"><label for="mm-signup-email" class="sr-only">Email address</label><input type="email" id="mm-signup-email" name="email" placeholder="you@example.com" autocomplete="email" required><button type="submit" class="mm-btn mm-btn-primary">Sign up</button></form><p class="mm-signup-note" id="mm-signup-note" aria-live="polite">Signing up opens your email app with the request ready to send.</p></div>
+<div class="mm-step"><span class="mm-step-num mm-bg4"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></span><h3>Join the conversation</h3><p>The questions from the calls continue in the <a href="https://www.linkedin.com/groups/10065812/">LinkedIn group</a> and on <a href="https://x.com/M365Maturity">@M365Maturity</a> on X and <a href="https://bsky.app/profile/did:plc:or5t5qsvdiaaekf4ltfrz3wh">@mm4m365.org</a> on Bluesky.</p></div>
+<div class="mm-step"><span class="mm-step-num mm-bg5"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span><h3 id="mm-newsletter">Get the newsletter</h3><p>A recap of every call, what's coming and new resources, once a month.</p><p class="mm-signup"><a class="mm-btn mm-btn-primary" href="https://mm4m365.kit.com/newsletter">Sign up</a></p><p class="mm-signup-note">Opens the sign-up page on Kit, the service that sends the newsletter.</p></div>
 <div class="mm-step"><span class="mm-step-num mm-bg1"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></span><h3>Contribute</h3><p>Write a practical scenario, suggest an update to a competency, or fix a typo. <a href="https://github.com/pnp/maturity-model">The model lives on GitHub</a>.</p></div>
 </div>
 </section>
 
-<script>
-(function(){
-  var f=document.getElementById("mm-signup"); if(!f) return;
-  f.addEventListener("submit",function(e){
-    e.preventDefault();
-    var v=document.getElementById("mm-signup-email").value.trim();
-    window.location.href="mailto:info@mm4m365.org?subject="+encodeURIComponent("Newsletter sign-up")+"&body="+encodeURIComponent("Please add "+v+" to the Maturity Model for Microsoft 365 newsletter.");
-    document.getElementById("mm-signup-note").textContent="Your email app opens with the request. Send it, and we add you to the list.";
-  });
-})();
-</script>
 <script>
 (function(){
   var box=document.getElementById("mm-ev"); if(!box||!window.fetch) return;
