@@ -13,7 +13,7 @@ _disableContribution: true
 <p class="mm-lead">The model helps you describe where your organization is today and turns everyday complaints into defined problems, with a clear path forward to grow maturity and make the business better.</p>
 <p class="mm-cta">
 <a class="mm-btn mm-btn-primary" href="overview/microsoft365-maturity-model--intro.md">Start here</a>
-<a class="mm-btn" href="tools-samples/microsoft365-maturity-model--run-workshop.md">Assess your organization</a>
+<a class="mm-btn" href="competencies/microsoft365-maturity-model--competencies.md">Find your competency</a>
 <a class="mm-btn" href="https://aka.ms/mm4m365/invite">Join the next call</a>
 </p>
 </div>
@@ -45,12 +45,12 @@ _disableContribution: true
 </section>
 
 <section class="mm-section mm-tone-soft">
-<h2 class="mm-h2">New here? Three steps</h2>
-<p class="mm-sub">From zero to a baseline you can show your leadership.</p>
+<h2 class="mm-h2">New here? You don't need all of it</h2>
+<p class="mm-sub">Let's be honest: the model is big, and there is a lot here. You don't need to know all of it to get going. Start small, with something you recognize, and build from there.</p>
 <div class="mm-steps">
-<div class="mm-step"><span class="mm-step-num mm-bg1">1</span><h3>Read the introduction</h3><p>What the model is, why it exists, and what the five levels mean in plain language.</p><a href="overview/microsoft365-maturity-model--intro.md">The model in ten minutes</a></div>
-<div class="mm-step"><span class="mm-step-num mm-bg2">2</span><h3>Pick your competencies</h3><p>Start with the one or few that matter most to you right now, and see which level describes you today.</p><a href="competencies/microsoft365-maturity-model--competencies.md">The competencies</a></div>
-<div class="mm-step"><span class="mm-step-num mm-bg3">3</span><h3>Run a quick assessment</h3><p>Score yourself with a few colleagues in the workshop workbook. It draws the radar charts for you.</p><a href="tools-samples/microsoft365-maturity-model--run-workshop.md">How to run a workshop</a></div>
+<div class="mm-step"><span class="mm-step-num mm-bg1">1</span><h3>Start where you are</h3><p>Pick a competency you are already good at, or one where you are struggling right now. Either is a fine way in.</p><a href="competencies/microsoft365-maturity-model--competencies.md">The competencies</a></div>
+<div class="mm-step"><span class="mm-step-num mm-bg2">2</span><h3>Read that competency</h3><p>Find the level that sounds like you today, and look at what the next level up would mean for you.</p><a href="overview/microsoft365-maturity-model--intro.md#maturity-levels">What the levels mean</a></div>
+<div class="mm-step"><span class="mm-step-num mm-bg3">3</span><h3>Find your next step</h3><p>See if a practical scenario can inspire your next move, or if a practitioners call has already covered it. Someone has often been there before you.</p><a href="practical-scenarios/maturity-model-microsoft365-practical-scenarios.md">Practical scenarios</a> · <a href="overview/practitioners-calls-archive.md">Past calls</a></div>
 </div>
 </section>
 
@@ -124,7 +124,7 @@ _disableContribution: true
 
 <section class="mm-section mm-tone-soft">
 <h2 class="mm-h2">Tools and downloads</h2>
-<p class="mm-sub">Everything you need to run your own assessment.</p>
+<p class="mm-sub">For when you are ready to go deeper: workbooks for a structured assessment with your colleagues, how a workshop runs, and slides to reuse.</p>
 <div class="mm-tools">
 <div class="mm-tool">
 <h3>Workshop workbooks</h3>
