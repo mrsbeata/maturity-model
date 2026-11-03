@@ -98,9 +98,9 @@ _disableContribution: true
 <h2 class="mm-h2" id="mm-events-h">Learn from people who have done it</h2>
 <p class="mm-sub">Nine times a year, on the third Tuesday of the month, a practitioner presents a topic and the rest of us ask the questions we can't ask at work. Newcomers are welcome. Times below are in your own time zone.</p>
 <div class="mm-ev" id="mm-ev" data-src="overview/files/practitioners-calls.json">
-<noscript><p>See the dates in the <a href="https://aka.ms/mm4m365/invite">calendar series</a>.</p></noscript>
+<noscript><p>See the dates in the <a href="https://aka.ms/mm4m365/ics">calendar series</a>.</p></noscript>
 </div>
-<p class="mm-more"><a class="mm-btn mm-btn-light" href="https://aka.ms/mm4m365/invite">Add the calendar series</a></p>
+<p class="mm-more"><a class="mm-btn mm-btn-light" href="https://aka.ms/mm4m365/ics">Add the calendar series</a></p>
 <p class="mm-more mm-ev-past">Missed one? <a href="overview/practitioners-calls-archive.md">Past calls with summaries</a> · <a href="https://www.youtube.com/playlist?list=PLR9nK3mnD-OXALeeIt1nbgBcSLj3WxyBi">All recordings</a></p>
 </section>
 
@@ -219,7 +219,7 @@ _disableContribution: true
       '<p><a class="mm-btn mm-btn-primary" href="'+data.invite+'">Add to my calendar</a></p></article>';
     var rest=list.slice(1,9).map(function(s){return '<li class="mm-ev-item'+(s.t?'':' mm-ev-open')+'"><span class="mm-ev-chip"><b>'+when(s.d,{day:"numeric"})+'</b>'+when(s.d,{month:"short"})+'</span><span class="mm-ev-body">'+(s.t?'<strong>'+esc(s.t)+'</strong>'+(s.p?'<span>'+esc(s.p)+'</span>':''):'<strong>Topic open</strong>'+ASK)+'</span></li>'}).join("");
     box.innerHTML=big+'<div class="mm-ev-later"><h3>Coming up</h3><ul>'+rest+'</ul></div>';
-  }).catch(function(){box.innerHTML='<p>See the dates in the <a href="https://aka.ms/mm4m365/invite">calendar series</a>.</p>'});
+  }).catch(function(){box.innerHTML='<p>See the dates in the <a href="https://aka.ms/mm4m365/ics">calendar series</a>.</p>'});
 })();
 </script>
 

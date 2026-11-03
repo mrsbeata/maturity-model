@@ -1,6 +1,6 @@
 {
   "_about": "Upcoming Maturity Model for Microsoft 365 practitioners calls, shown on the start page. One entry per call: start time in UTC (10:00 New York time), title and speaker. Leave title null while the topic is open; the page then invites suggestions. Calls run on the third Tuesday of the month, except July, August and December.",
-  "invite": "https://aka.ms/mm4m365/invite",
+  "invite": "https://aka.ms/mm4m365/ics",
   "sessions": [
     {
       "start": "2026-11-17T15:00:00Z",
