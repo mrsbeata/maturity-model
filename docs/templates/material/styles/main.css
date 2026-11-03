@@ -680,8 +680,8 @@ code {
 .mm-faq .panel-heading { background: #fff; border-radius: 10px; padding: 0; }
 .mm-faq .panel-title a { display: block; padding: 1em 1.2em; font-weight: 700; color: var(--mm-ink); text-decoration: none; }
 
-/* Sticky navigation, site-wide */
-header { position: sticky; top: 0; z-index: 1030; }
+/* Sticky navigation on small screens too (the template already fixes it on larger ones) */
+@media only screen and (max-width: 768px) { header { position: sticky; top: 0; z-index: 1000; } }
 
 /* Section tones: full-bleed backgrounds without horizontal scroll */
 .mm-tone-soft, .mm-tone-tint, .mm-tone-ink { clip-path: inset(0 -100vmax); }

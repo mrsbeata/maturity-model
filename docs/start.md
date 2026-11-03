@@ -49,7 +49,7 @@ _disableContribution: true
 <p class="mm-sub">From zero to a baseline you can show your leadership.</p>
 <div class="mm-steps">
 <div class="mm-step"><span class="mm-step-num mm-bg1">1</span><h3>Read the introduction</h3><p>What the model is, why it exists, and what the five levels mean in plain language.</p><a href="overview/microsoft365-maturity-model--intro.md">The model in ten minutes</a></div>
-<div class="mm-step"><span class="mm-step-num mm-bg2">2</span><h3>Pick one competency</h3><p>Don't read all thirteen. Start with the one that matters most to you and see which level describes you today.</p><a href="competencies/microsoft365-maturity-model--competencies.md">The competencies</a></div>
+<div class="mm-step"><span class="mm-step-num mm-bg2">2</span><h3>Pick your competencies</h3><p>Start with the one or few that matter most to you right now, and see which level describes you today.</p><a href="competencies/microsoft365-maturity-model--competencies.md">The competencies</a></div>
 <div class="mm-step"><span class="mm-step-num mm-bg3">3</span><h3>Run a quick assessment</h3><p>Score yourself with a few colleagues in the workshop workbook. It draws the radar charts for you.</p><a href="tools-samples/microsoft365-maturity-model--run-workshop.md">How to run a workshop</a></div>
 </div>
 </section>
@@ -107,7 +107,12 @@ _disableContribution: true
 
 <section class="mm-section">
 <h2 class="mm-h2">Practical scenarios</h2>
-<p class="mm-sub">Real business tasks worked through with the model, naming the Microsoft 365 features involved.</p>
+<p class="mm-sub">The competencies describe what good looks like. The practical scenarios show how you get there. Each one takes a real business task and walks it through the model, naming which Microsoft 365 technology does what along the way.</p>
+<div class="mm-explain">
+<div><strong>One real task</strong><span>Rolling out Copilot, sharing knowledge, keeping the brand consistent, handling service changes. Work people recognize from their own organization.</span></div>
+<div><strong>The technology, by name</strong><span>SharePoint for this, Teams for that, Viva Engage, Planner or Power Automate where they fit. Concrete enough to act on.</span></div>
+<div><strong>Across competencies and levels</strong><span>How the task touches several competencies, and what changes as you move from one level to the next.</span></div>
+</div>
 <div class="mm-scards">
 <a class="mm-scard" href="practical-scenarios/maturity-model-microsoft365-practical-scenarios-copilot-implementation.md"><span class="mm-scard-img" style="background-image:url('practical-scenarios/images/maturity-model-microsoft365-practical-scenarios-copilot-implementation/parallel-path.png')"></span><span class="mm-scard-body"><span class="mm-pill">Practical scenario</span><strong>Implementing Microsoft 365 Copilot organization-wide</strong><span>Copilot is not a technology rollout. People, process, training and governance, competency by competency.</span></span></a>
 <a class="mm-scard" href="practical-scenarios/maturity-model-microsoft365-ps-knowledge-management.md"><span class="mm-scard-img" style="background-image:url('practical-scenarios/images/maturity-model-microsoft365-ps-knowledge-management/knowledge-process.jpg')"></span><span class="mm-scard-body"><span class="mm-pill">Practical scenario</span><strong>Knowledge Management</strong><span>Connect the silos instead of breaking them, so the right knowledge reaches the people who need it.</span></span></a>
