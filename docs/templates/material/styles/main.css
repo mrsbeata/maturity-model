@@ -738,8 +738,9 @@ code {
 .mm-photo { width: 96px; height: 96px; border-radius: 50%; object-fit: cover; margin-bottom: 10px; flex: 0 0 auto; box-shadow: 0 0 0 4px #fff, 0 0 0 6px #e1e2ee; }
 .mm-avatar { display: flex; align-items: center; justify-content: center; font-weight: 900; font-size: 1.8em; color: #fff; }
 .mm-person strong { color: var(--mm-ink); font-size: 1.05em; }
-.mm-person .mm-role { font-size: .85em; color: #666; }
-.mm-person .mm-plug { font-weight: 700; color: var(--mm-ink); }
+.mm-person .mm-role { font-size: .85em; font-weight: 600; color: var(--mm-ink); }
+.mm-person .mm-badge { font-size: .7em; font-weight: 700; letter-spacing: .06em; color: #fff; background: #6A6DAD; border-radius: 999px; padding: .15em .7em; margin: .2em 0 .3em; }
+.mm-person .mm-plug { font-size: .85em; line-height: 1.45; color: #444; flex: 1 1 auto; }
 .mm-li { margin-top: .5em; font-size: .75em; font-weight: 700; text-transform: uppercase; letter-spacing: .08em; color: #0a66c2; }
 @media (max-width: 767px) { .mm-ev { grid-template-columns: 1fr; } .mm-ev-next { position: static; } .mm-ev-day { font-size: 3.5em; } }
 @media (prefers-reduced-motion: reduce) { .mm-tile, .mm-tile::before, .mm-tile::after, .mm-tile .mm-icon, .mm-person, .mm-btn { transition: none !important; } .mm-tile:hover, .mm-person:hover { transform: none; } }
