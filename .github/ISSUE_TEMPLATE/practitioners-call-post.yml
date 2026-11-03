@@ -1,0 +1,66 @@
+name: "Blog post: Practitioners Call"
+description: Turn a recorded Practitioners Call into an archive post on the blog. Assign to Copilot when filled in.
+title: "Archive post: <Month YYYY> – <topic>"
+labels: ["blog", "type:archive"]
+body:
+  - type: input
+    id: date
+    attributes:
+      label: Session date
+      description: The date the call took place (not the YouTube upload date). YYYY-MM-DD.
+      placeholder: "2026-10-20"
+    validations:
+      required: true
+  - type: input
+    id: topic
+    attributes:
+      label: Topic
+    validations:
+      required: true
+  - type: textarea
+    id: speakers
+    attributes:
+      label: Speaker(s)
+      description: One per line, name + credentials + public profile URL.
+      placeholder: "Jane Doe, MVP – https://www.linkedin.com/in/janedoe/"
+    validations:
+      required: true
+  - type: textarea
+    id: plugs
+    attributes:
+      label: Speaker plugs
+      description: >
+        What each speaker wants to promote: book, blog, newsletter, podcast, product, event, community.
+        One per line as "Speaker – what – URL". Only include what the speaker asked for or agreed to.
+      placeholder: "Jane Doe – Newsletter: Governance Weekly – https://example.com/newsletter"
+  - type: input
+    id: recording
+    attributes:
+      label: Recording URL
+      placeholder: "https://www.youtube.com/watch?v=..."
+    validations:
+      required: true
+  - type: input
+    id: slides
+    attributes:
+      label: Slides
+      description: Public link to the deck, e.g. the file in the shared document library. Leave empty if not shared.
+  - type: textarea
+    id: transcript
+    attributes:
+      label: Transcript
+      description: >
+        On YouTube: ... (More) > Show transcript, select all, copy, paste here. Keep the timestamps,
+        they become the chapters. Copilot cannot fetch transcripts from YouTube itself.
+    validations:
+      required: true
+  - type: textarea
+    id: links
+    attributes:
+      label: Links mentioned in the session
+      description: Resources, articles or tools the speakers referred to. One per line.
+  - type: textarea
+    id: notes
+    attributes:
+      label: Anything else
+      description: Corrections, things to emphasise, or things to leave out.
