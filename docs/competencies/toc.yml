@@ -1,7 +1,11 @@
 - name: Business Process Competency
   href: microsoft365-maturity-model--business-process.md
 - name: Cognitive Business Competency
-  href: microsoft365-maturity-model--cognitive-business.md
+  items:
+    - name: Cognitive Business Competency
+      href: microsoft365-maturity-model--cognitive-business.md
+    - name: Operating AI Agents
+      href: microsoft365-maturity-model--operating-ai-agents.md
 - name: Collaboration Competency
   items:
     - name: Collaboration Competency
