@@ -12,9 +12,8 @@ _disableContribution: true
 <h1 class="mm-hero-title">See where you are.<br>Decide where to go.<br>Follow the path.</h1>
 <p class="mm-lead">The model helps you describe where your organization is today and turns everyday complaints into defined problems, with a clear path forward to grow maturity and make the business better.</p>
 <p class="mm-cta">
-<a class="mm-btn mm-btn-primary" href="overview/microsoft365-maturity-model--intro.md">Start here</a>
-<a class="mm-btn" href="competencies/microsoft365-maturity-model--competencies.md">Find your competency</a>
-<a class="mm-btn" href="https://aka.ms/mm4m365/invite">Join the next call</a>
+<a class="mm-btn mm-btn-primary" href="#mm-events-h">Join the next call</a>
+<a class="mm-btn" href="#mm-newsletter">Sign up for the newsletter</a>
 </p>
 </div>
 <div class="mm-hero-art">
@@ -188,7 +187,7 @@ _disableContribution: true
 <h2 class="mm-h2">Get involved</h2>
 <div class="mm-steps">
 <div class="mm-step"><span class="mm-step-num mm-bg4"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span></span><h3>Join the conversation</h3><p>The questions from the calls continue in the <a href="https://www.linkedin.com/groups/10065812/">LinkedIn group</a> and on <a href="https://x.com/M365Maturity">@M365Maturity</a>.</p></div>
-<div class="mm-step"><span class="mm-step-num mm-bg5"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span><h3>Get the newsletter</h3><p>A recap of every call, what's coming and new resources, once a month.</p><form class="mm-signup" id="mm-signup" action="mailto:info@mm4m365.org" method="post"><label for="mm-signup-email" class="sr-only">Email address</label><input type="email" id="mm-signup-email" name="email" placeholder="you@example.com" autocomplete="email" required><button type="submit" class="mm-btn mm-btn-primary">Sign up</button></form><p class="mm-signup-note" id="mm-signup-note" aria-live="polite">Signing up opens your email app with the request ready to send.</p></div>
+<div class="mm-step"><span class="mm-step-num mm-bg5"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span></span><h3 id="mm-newsletter">Get the newsletter</h3><p>A recap of every call, what's coming and new resources, once a month.</p><form class="mm-signup" id="mm-signup" action="mailto:info@mm4m365.org" method="post"><label for="mm-signup-email" class="sr-only">Email address</label><input type="email" id="mm-signup-email" name="email" placeholder="you@example.com" autocomplete="email" required><button type="submit" class="mm-btn mm-btn-primary">Sign up</button></form><p class="mm-signup-note" id="mm-signup-note" aria-live="polite">Signing up opens your email app with the request ready to send.</p></div>
 <div class="mm-step"><span class="mm-step-num mm-bg1"><span class="glyphicon glyphicon-pencil" aria-hidden="true"></span></span><h3>Contribute</h3><p>Write a practical scenario, suggest an update to a competency, or fix a typo. <a href="https://github.com/pnp/maturity-model">The model lives on GitHub</a>.</p></div>
 </div>
 </section>
