@@ -136,15 +136,6 @@ There is some appreciation of the emergence of potent cognitive tools and there 
 - Intellectual Property implications are not considered.
 - Understanding the costs of implementing Cognitive Business tools.
 
-#### 200 Operating model for AI agents
-
-- Agents are built as fast experiments by a few enthusiasts. They show value quickly but are not built to last.
-- No Agent Owner or Information Owner is formally appointed. Building and running the agent depend on very few people, or on external consultants.
-- The cost of an agent is shared with other experiments and cannot be attributed to it.
-- Whatever content is available is used as a source, whether or not it is approved, current or owned.
-- Chats, transcripts and uploaded files are kept without a decided retention or deletion routine.
-- Use spreads beyond the pilot group without introduction or training.
-
 #### Level 200 Impacts
 
 At this level, Cognitive business remains the domain of staff, with a few ‘mavericks’ extolling the virtues of AI and playing with the capabilities, usually with no oversight by technology, governance or management functions. AI is not contributing to productivity other than through ‘invisible’ AI that is built into off-the-shelf applications and services.
@@ -186,24 +177,10 @@ At level 300, the organization is actively considering how to enhance its knowle
 
 #### 300 Governance, Risk, Compliance and Security
 
-- ✨ It is understood that AI needs some level of governance and oversight. Governance is moving from the IT team alone to a cross-functional AI committee, with business, information and IT roles for each agent, though it may not yet be fully aligned with broader business strategy and policies.
+- ✨ It is understood that AI needs some level of governance and oversight. Governance is moving from the IT team alone to a cross-functional AI committee, with business, information and IT roles for each agent, though it may not yet be fully aligned with broader business strategy and policies. See [Practical Scenarios - AI Operations](../practical-scenarios/maturity-model-microsoft365-ps-ai-operations.md).
 - The organization develops and models rules of engagement and governance to take advantage of the benefits of the cognitive systems.
 - Governance of all aspects of the cognitive tools is proportionate to the impacts the system has on business and individuals.
 - ✨ There is a content governance policy implemented to secure sensitive content and eliminate out-of-date content in order to ensure that AI using content in general business repositories provide appropriate and current responses.
-
-#### 300 Operating model for AI agents
-
-AI agents are treated as a service that must be run, not as a one-time release. See [Operating AI Agents](microsoft365-maturity-model--operating-ai-agents.md) for the roles, gates and lifecycle in detail.
-
-![Operating model for AI agents: governance, change and knowledge, business, information and technology roles on top of a governance dashboard.](./images/microsoft365-maturity-model-cognitive-business/ai-agent-operating-model.png)
-
-- ✨ Every agent has a named, competent Agent Owner (purpose, value, budget, decision to continue) and Agent Leader (instructions, business tests, adoption). Every knowledge domain an agent uses has an Information Owner and an Information Steward.
-- ✨ Agents are admitted through defined gates before release: purpose, operating organisation, source readiness, business testing, independent IT assurance, risk and exceptions, and controlled release.
-- Agents have a status (approved, warning, restricted, suspended, retired) and it is clear who can change it. IT can suspend an agent during an incident without prior business approval.
-- Only approved, current sources with an owner, review date and lifecycle are connected to an agent. A document being available does not make it an approved source.
-- The business tests the agent with representative questions; IT tests it independently for security, prompt injection and access. Tests are rerun when sources, instructions, permissions or the platform change.
-- An Agent Leader network and an Information Steward network share tests, lessons and competence, so that no agent depends on one person.
-- Retention of chats, transcripts and uploads is decided per data type, and the cost of each agent is reported separately.
 
 #### Level 300 Impacts
 
@@ -263,15 +240,6 @@ There are processes to build, deploy, integrate, and manage AI alongside staff i
 - There are processes to hand off ethically complex issues or outliers from the systems to human arbiters.
 - Inputs to cognitive systems are recorded so that they can be used to validate outputs.
 - The risks of cognitive business tools deskilling staff are understood and addressed appropriately, such as through actively retaining skills or accepting that these are lost to the organization and external expertise is used when required.
-
-#### 400 Operating model for AI agents
-
-- ✨ Agent, source, competence, test and cost status comes from a governance dashboard fed by systems, not from self-declaration.
-- Failing KPIs, stale sources and competence gaps trigger warnings automatically, with a dated remediation plan.
-- Change-triggered regression tests are automated and reused across all agents.
-- Exceptions to AI policy are time-boxed and renewed on evidence, at least every quarter.
-- Total AI cost is allocated per agent and business area, so that choices such as licences versus pay-as-you-go are made for the whole portfolio, not agent by agent.
-- The same roles, gates and networks are reused for every new agent, which makes each new agent cheaper to introduce than the first.
 
 #### Level 400 Impacts
 
@@ -356,6 +324,7 @@ At this level the organization fluidly adopts AI alongside staff in order to exc
 - [Responsible AI Maturity Model](https://www.microsoft.com/research/uploads/prod/2023/05/RAI_Maturity_Model_Aether_Microsoft_whitepaper.pdf)
 - [MS - Governing AI:  A Legal and Regulatory Blueprint for the Future](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RW14Gtw)
 - [Responsible AI](/azure/cloud-adoption-framework/innovate/best-practices/trusted-ai)
+- [Practical Scenarios - AI Operations](../practical-scenarios/maturity-model-microsoft365-ps-ai-operations.md)
 
 [!INCLUDE [mm4m365-practitioners](../includes/mm4m365-practitioners.md)]
 
