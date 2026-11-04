@@ -26,6 +26,42 @@ This scenario describes a system, not a recipe. Every organisation will need to 
 
 The content is drawn from practice in an organisation that had shown the value of a knowledge agent in a short pilot and then had to describe how that agent, and the agents that followed, would be run in the line. That organisation had decided to use one platform and one repository for its first agents. In reality, architects will manage a landscape of agents that are **built, bought and rented**, on several platforms and over many repositories. The scenario is written for that landscape.
 
+## Scenarios the operating model solves
+
+Start with the situations. Each of these is hard without an operating model, and becomes a routine decision with an owner and an end date when the roles, the strategy and the networks exist. The rest of this scenario describes those parts.
+
+### When something goes wrong
+
+![Six scenarios when something goes wrong: supplier price rise or model withdrawal, many different CRM connections, a compromised agent, a compromised user account, stale sources or an owner leaving, and a new regulation.](./images/maturity-model-microsoft365-ps-ai-operations/scenarios-goes-wrong.png)
+
+**A supplier raises its prices sharply, or withdraws a model.** The AI Committee and AI Finance & Cost take the task and calculate the impact. With the platform strategy as the basis, the AI Committee decides to move a set of agents from one platform to another and gives the Agent Owners an end date. Agent Leaders get help to redesign their agents from other Agent Leaders whose agents already run on the target platform. End users may not notice anything.
+
+**Many agents have different kinds of connections and lookups to the CRM system.** Keeping many different connections tested and secure becomes unsustainable. The AI Architects decide that one MCP server should be built that meets everyone's needs and is simpler to work with going forward. It is tried with a few agents first; the AI Committee, not the Agent Owners, decides which. The Agent Leaders then update their agents by an end date.
+
+**An agent seems to be compromised.** Operations suspends the agent and reports to the Agent Owner and the AI Committee. The incident is shared and handled in the Agent Leader Network, and the agent is retested before it is restored.
+
+**A user account seems to be compromised.** The same path: Operations blocks the account and the agent access it had, reports to the Agent Owners and the AI Committee, and the Agent Leader Network checks which agents and sources the account reached.
+
+**Sources go stale, or an owner leaves.** The dashboard shows overdue reviews or a missing owner. The agent goes to warning status with a dated plan, the Agent Owner appoints a new owner, and the Information Steward cleans up the sources.
+
+**A new regulation or a new legal interpretation.** Legal brings it to the Information Steward Network, where the Stewards agree what it means for each repository. The AI Committee updates the policy and the Agent Leaders retest the affected agents.
+
+### When something new arrives
+
+![Six scenarios when something new arrives: new platform features, the primary platform covering parts of a secondary one, a new agent, a temp agent proving its value, a consultant-built agent handed over, and who sees the whole picture.](./images/maturity-model-microsoft365-ps-ai-operations/scenarios-new.png)
+
+**A platform releases new features.** They are presented in the networks. Some Agent Leaders test and evaluate them and report to the AI Committee, which decides how they are rolled out.
+
+**New AI capabilities in the primary platform cover parts of a secondary platform.** The AI Architects and Agent Leaders evaluate the overlap, the AI Committee and AI Finance & Cost compare cost, risk and capability, and the AI Committee decides whether to consolidate or stay a while longer.
+
+**A department wants a new agent.** The Agent Owner proposes it and it goes into the agent register with a type. The Agent Leader Network offers patterns and tests that already work, so the agent passes the gates faster than the first one did.
+
+**A temp agent proves its value.** The Agent Owner shows the value chain with measured KPIs, and the AI Committee re-admits it as a permanent agent once the missing gates are passed.
+
+**A consultant-built agent is handed over.** The contract requires knowledge transfer. An internal Agent Leader takes over with help from the network, and the agent's type in the register changes from consultant to permanent employee.
+
+**Who sees the whole picture?** The networks give input to the AI Committee. The AI Committee, with AI Finance & Cost, holds the overall view of usage, surveys and follow-up for all agents, all platforms and all costs, measured against common and relevant KPIs.
+
 ## How AI Operations connects to the competencies
 
 AI Operations does not belong to a single competency. That is why it is a Practical Scenario.
@@ -185,6 +221,36 @@ The approved internal platforms are where the real work happens, so the policy h
 | **Restricted**: special category personal data, inside information, ongoing security incidents | Only in agents approved for that purpose | No | Only if approved for that purpose | No |
 | **Credentials**: passwords, keys, tokens, secrets | Never | Never | Never | Never |
 
+## Example of a storage strategy
+
+![Example of a storage strategy: working material in Teams and OneDrive, warm information that agents use, and a cold archive that agents cannot see.](./images/maturity-model-microsoft365-ps-ai-operations/storage-strategy.png)
+
+The same document can be important to keep without being relevant to answer from. An example storage strategy has three states:
+
+| | Working material | Warm | Cold archive |
+|---|---|---|---|
+| Where | Teams and OneDrive | SharePoint intranet, CRM system, finance systems, SharePoint intermediate storage | A separate archive |
+| What | Drafts, versions, ongoing work | Approved, current content: policies, agreements, guides, templates; closed matters still in their retention period | Old versions, closed workspaces, history that must be kept |
+| Agents | Not a source for knowledge agents | Approved sources for agents | Agents cannot see it |
+
+Information is moved by its state, not by how often it is read. The storage strategy is shared with the [Management of Content Competency](../competencies/microsoft365-maturity-model--management-of-content.md).
+
+## How Information Stewards move information
+
+![The Information Steward process: working material, final, intermediate storage, archive and cold archive, with disposal at every step.](./images/maturity-model-microsoft365-ps-ai-operations/steward-process.png)
+
+Information Stewards have a process that moves information from **working material** to **final**, and from final to **intermediate storage**, **archive** and **cold archive**.
+
+| Step | Where | What happens |
+|---|---|---|
+| Working material | Teams, OneDrive | Templates and naming standards are used from the start. |
+| Final | The right warm repository | Published with owner, metadata and review date. |
+| Intermediate storage | SharePoint, still searchable | Closed matters stay here during their retention period. |
+| Archive | Long-term archive | Records kept for legal and business reasons, according to the retention schedule. |
+| Cold archive | Preserved, no agent access | History that must remain. |
+
+Disposal happens at every step: redundant, obsolete and trivial content and anything past its retention period is disposed of according to the retention schedule. The Steward decides when working material becomes final, checks owners, metadata and review dates, and runs the disposal and archiving routines. In the Information Steward Network, with Legal, the Stewards agree one interpretation of the rules per repository, share templates for long-term archive, and automate the moves where the platform allows.
+
 ## From capability to value
 
 ![Value chain from capability through behaviour and KPI to value, with the evidence needed at each step.](./images/maturity-model-microsoft365-ps-ai-operations/value-chain.png)
@@ -253,20 +319,6 @@ Users describe cases and upload screenshots, so personal data passes through age
 
 - [Control transcript access and retention (Copilot Studio)](https://learn.microsoft.com/microsoft-copilot-studio/admin-transcript-controls)
 - [Learn about retention for Copilot & AI apps (Microsoft Purview)](https://learn.microsoft.com/purview/retention-policies-copilot)
-
-## Scenarios the operating model solves
-
-![Four scenarios: a supplier raises prices or withdraws a model, many agents share the same CRM workflows, an agent seems compromised, and who sees the whole picture.](./images/maturity-model-microsoft365-ps-ai-operations/scenarios-solved.png)
-
-When the roles, the strategy and the networks exist, a hard event becomes a routine decision with an owner and an end date.
-
-**A supplier raises its prices sharply, or withdraws a model.** The AI Committee and AI Finance & Cost take the task and calculate the impact. With the platform strategy as the basis, the AI Committee decides to move a set of agents from one platform to another and gives the Agent Owners an end date. Agent Leaders get help to redesign their agents from other Agent Leaders whose agents already run on the target platform. End users may not notice anything.
-
-**Many agents use roughly the same workflows against the CRM system.** The AI Architects decide that one MCP server should be built that meets everyone's needs and is simpler to work with going forward. It is tried with a few agents first; the AI Committee, not the Agent Owners, decides which. The Agent Leaders then get an end date for moving their agents.
-
-**An agent seems to be compromised.** Operations suspends the agent and reports to the Agent Owner and the AI Committee. The same path applies when a user account seems to be compromised. Every incident is shared and handled in the Agent Leader Network, so all agents benefit from the fix, and the agent is retested before it is restored.
-
-**Who sees the whole picture?** The networks give input to the AI Committee. The AI Committee, with AI Finance & Cost, holds the overall view of usage, surveys and follow-up for all agents, all platforms and all costs, measured against common and relevant KPIs. One picture, not one per agent.
 
 ## Applying the Maturity Model to AI Operations
 
