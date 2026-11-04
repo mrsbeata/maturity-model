@@ -33,7 +33,7 @@ This competency focuses on many aspects of the management of content, including 
 Managing an organization’s content and its lifecycle is a crucial success factor for the following business competencies:
 
 - **Governance, Risks, and Compliance (GRC):** The requirements for content and content lifecycle management may stem directly from GRC objectives and activities (e.g., GDPR, SOX). Conversely, failure to manage content can introduce risks or hinder the success of GRC activities.
-- **Information Security:** Information security addresses information Availability, Integrity, and Confidentiality. It therefore relates to content management in terms of findability (A), content quality (I), and content tagging and identification ©.
+- **Information Security:** Information security addresses information Availability, Integrity, and Confidentiality. It therefore relates to content management in terms of findability (A), content quality (I), and content tagging and identification (C).
 - **Cognitive Business:** The advent of generative AI has led to increased usage of unstructured data, such as data contained in documents, emails, conversations, web pages, and so on. Managing the quality and lifecycle of an organization’s content is becoming a key success factor for efficient AI adoption.
 - **Business Process and Quality Management:** Content management should prevent any out-of-date information from being used inappropriately, while ensuring that important and job-related information is timely and easily accessible. This ensures that business processes are carried out correctly. Additionally, the business process is typically the starting point for defining content management requirements.
 
@@ -54,7 +54,7 @@ Types of content cover but are not limited to the following:
 
 - Consistency
 - Standards
-- Views, marking, formatting, //RAGRed, amber, blue status  //, iconography
+- Views, marking, formatting, RAG (red, amber, green) status, iconography
 - Headings and styles
 - Readability and cognitive load
 - Accessibility
@@ -64,13 +64,13 @@ Types of content cover but are not limited to the following:
 - Creation
   - Co-authoring
   - Templates
-  - Content structure and sematic design
+  - Content structure and semantic design
 - Release/Approval/Scheduling
 - Management
   - Versioning
   - eDiscovery
   - Protection of content
-  - Information Rights Management (IRM), //DLPData Loss Prevention   (DLP)//, Permissions, security
+  - Information Rights Management (IRM), Data Loss Prevention (DLP), Permissions, security
   - Versioning and version history
 - Retention and Disposal
   - Archive
@@ -92,7 +92,7 @@ Types of content cover but are not limited to the following:
 - Structure
 - Platforms and tools
 - Information Architecture
-- ["Putability"](/community-docs/articles/glossary.md#putability)
+- "Putability": how easily people know where content should be put
 - Duplicate management
 - Costs
 - Offline and sync
@@ -103,7 +103,7 @@ Types of content cover but are not limited to the following:
 
 The entry point for most organizations. There are no standards defined for how content is identified, presented or structured. The content is either stored all over the place or in one big bucket which makes it difficult for people to find.
 There is a lot of frustration at this level because people spend a lot of time finding content that they know is there.
-**[Initial level]../overview/microsoft365-maturity-model--intro.md#level-100---initial)** characteristics include:
+**[Initial level](../overview/microsoft365-maturity-model--intro.md#level-100---initial)** characteristics include:
 
 #### 100 Lifecycle Management
 
@@ -164,7 +164,7 @@ At this level you can expect the following:
 
 ### Level 200 - Managed
 
-**[Managed level]../overview/microsoft365-maturity-model--intro.md#level-200---managed)** characteristics include:
+**[Managed level](../overview/microsoft365-maturity-model--intro.md#level-200---managed)** characteristics include:
 
 #### 200 Lifecycle Management
 
@@ -190,7 +190,7 @@ At this level you can expect the following:
 
 - Naming conventions are in place for many classes of content, though this is not enforced and there are large amounts of content where naming approaches are opaque to other users.
 - Documents frequently lack clear sections with structured headings. Subject lines in emails are often unclear and not updated as a conversation evolves. Contacts are labelled arbitrarily or inconsistently.
-- The same names are used for different things and vice .versa.   The organization lacks a maintained glossary and agreed set of terms.
+- The same names are used for different things and vice versa. The organization lacks a maintained glossary and agreed set of terms.
 
 ##### 200 Presentation
 
@@ -229,7 +229,7 @@ At this level you can expect the following:
 
 ### Level 300 - Defined
 
-**[Defined level]../overview/microsoft365-maturity-model--intro.md#level-300---defined)** characteristics include:
+**[Defined level](../overview/microsoft365-maturity-model--intro.md#level-300---defined)** characteristics include:
 
 #### 300 Lifecycle Management
 
@@ -266,7 +266,7 @@ At this level you can expect the following:
 
 ##### 300 Storage
 
-- There is a designed storage approach, with signposting, guidance, and some enforcement of where to put content. Content management strategies are understood and are increasingly robust, effort is put into maintaining staff understanding and compliance. File server storage is in active decline, is described as part of the contentment strategy and legacy file stores are understood with an intention to migrate/deprecate them where possible. Use of local storage on hard drives or removable devices is mostly disallowed by policy and technical measures; staff are familiar with the mandated approaches.
+- There is a designed storage approach, with signposting, guidance, and some enforcement of where to put content. Content management strategies are understood and are increasingly robust, effort is put into maintaining staff understanding and compliance. File server storage is in active decline, is described as part of the content strategy and legacy file stores are understood with an intention to migrate/deprecate them where possible. Use of local storage on hard drives or removable devices is mostly disallowed by policy and technical measures; staff are familiar with the mandated approaches.
 - Centralized storage areas are carefully structured, providing access to managed assets, publication and resource areas across the organization, with appropriate permissions. Well-designed information architecture flows down to most departments and projects. Collaboration and personal or team areas remain largely unstructured and somewhat chaotic. Use of folders persists but is in decline in some areas in favor of content tagging and filtered views.
 - Access permissions are as granular as needed, applying to entire content repositories and/or to individual items. Management remains somewhat inconsistent in the absence of strong governance processes linked to roles.
 - Legacy lists are updated to be stored in appropriate systems, reducing the reliance on direct file storage in favor of task specific applications and platforms.
@@ -284,7 +284,7 @@ At this level you can expect the following:
 
 ### Level 400 - Predictable
 
-**[Predictable level]../overview/microsoft365-maturity-model--intro.md#level-400---predictable)** characteristics include:
+**[Predictable level](../overview/microsoft365-maturity-model--intro.md#level-400---predictable)** characteristics include:
 
 #### 400 Lifecycle Management
 
@@ -300,7 +300,7 @@ At this level you can expect the following:
 - ✨ Multi-author content creation and editing is the norm and extends beyond organization boundaries to incorporate suppliers, partners and clients where appropriate and with well understood and monitored security and governance (such as use of time windows for editability). Use of email attachments is the exception within the company and is in decline with external content sharing.
 - ✨ Duplication of content is actively avoided and there are periodic checks to identify unnecessary duplicates. There is a good understanding of version control and version history, and these are appropriately used.
 - Role-based access, governance and protection is well designed, documented and consistently implemented.
-- Document Retention mechanisms are in -lace for all important classes of content and are reviewed annually to ensure policies and technical controls are effective and appropriate. attempted, sporadically. A governance board reviews new needs and oversees decisions on retention, disposition and destruction of content.
+- Document Retention mechanisms are in place for all important classes of content and are reviewed annually to ensure policies and technical controls are effective and appropriate. A governance board reviews new needs and oversees decisions on retention, disposition and destruction of content.
 - SchemaSchemas exist for common list types, often based on open standards, to ensure consistency and interoperability. Extensions to the schema are carefully considered, reviewed against other schemas in use and rolled out in an integrated way that updates all dependent lists.
 - Content classes are developed based on the agreed schema.
 
@@ -337,7 +337,7 @@ At this level you can expect the following:
 At this level you can expect the following:
 
 - ✨ Content is strongly managed across business applications and processes, feels largely seamless to users and is easy for them to recognize value in and adopt. Staff focus on task completion, contributing to content management consistently, recognizing that their contributions benefit other parts of the system.
-- In many cases, content storage is a function of the type of content and not at the discretion of staff; ["putability"](/community-docs/articles/glossary.md#putability) decisions are driven by well-established principles that staff are fluent at applying.
+- In many cases, content storage is a function of the type of content and not at the discretion of staff; "putability" decisions are driven by well-established principles that staff are fluent at applying.
 - Productivity is consistently high and metrics are in place to identify and act on exceptions. Rework and errors are rare.
 - Staff intuitively use definitive reference content; they know how to validate that they are using appropriate information and are collectively confident of decisions based on their sources.
 - Content driven systems are routinely improved; feedback and monitoring mechanisms at granular and aggregate level continuously identify areas for improvement and enable programs of work to maintain productivity as the business landscape evolves.
@@ -345,7 +345,7 @@ At this level you can expect the following:
 
 ### Level 500 - Optimizing
 
-**[Optimizing level]../overview/microsoft365-maturity-model--intro.md#level-500---optimizing)** characteristics include:
+**[Optimizing level](../overview/microsoft365-maturity-model--intro.md#level-500---optimizing)** characteristics include:
 
 #### 500 Lifecycle Management
 
@@ -385,7 +385,7 @@ At this level you can expect the following:
 
 ##### 500 Storage
 
-- ✨ There is a wide reaching, flexible and inclusive strategy for storage of all types of content which ensures everything is available to staff and partners who need it, regardless of location, device, region etc. ["Putability"](/community-docs/articles/glossary.md#putability) is actively guided or fully automated, based on AI classifiers.
+- ✨ There is a wide reaching, flexible and inclusive strategy for storage of all types of content which ensures everything is available to staff and partners who need it, regardless of location, device, region etc. "Putability" is actively guided or fully automated, based on AI classifiers.
 - Storage is largely "invisible" to staff. Content is created, stored and accessed without a need to learn the storage structures.
 - Storage is planned and monitored against the tenant's licensed and purchased capacity and Microsoft's applicable service limits, including site collection limits ([SharePoint Online limits](https://learn.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)). Administrators plan capacity at both tenant and site collection levels, using lifecycle management, monitoring and governance to keep content available and within those limits.
 
@@ -401,7 +401,7 @@ At this level you can expect the following:
 
 ## Scenarios
 
-The company needs to manage its staff and process policies in order to remain complaint and ensure staff only work to the latest version of each.
+The company needs to manage its staff and process policies in order to remain compliant and ensure staff only work to the latest version of each.
 
 The sales team need to issue new quotations and access previously issued versions, similar quotations for other clients and different quotations to the same client. These need to have consistent layouts and information.
 
@@ -428,7 +428,6 @@ Burgeoning automation and AI make achieving high levels of maturity realistic fo
 ### Common tool sets
 
 - Azure
-- Azure Information Protection
 - Copilot
 - Data Loss Prevention
 - Email
@@ -447,7 +446,7 @@ Burgeoning automation and AI make achieving high levels of maturity realistic fo
 ## Resources
 
 - There are a variety of helpful documents on lists, libraries, information architecture, plus related competencies such as [search](principles-of-search.md), communication, and collaboration on this site.
-- The slides we've used in this article are available in the backing repo on Github as [Management of Content - Content Lifecycle](https://github.com/MicrosoftDocs/microsoft-365-community/blob/master/Community/images/microsoft365-maturity-model--management-of-content/Management%20of%20Content%20-%20Content%20Lifecycle.pptx?raw=true)
+- The slides we've used in this article are available in this repository as [Management of Content - Content Lifecycle](./images/microsoft365-maturity-model--management-of-content/Management%20of%20Content%20-%20Content%20Lifecycle.pptx)
 
 [!INCLUDE [mm4m365-practitioners](../includes/mm4m365-practitioners.md)]
 
