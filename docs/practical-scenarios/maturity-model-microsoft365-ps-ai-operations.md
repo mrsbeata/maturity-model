@@ -72,6 +72,7 @@ No agent enters or stays in operation without
 |---|---|---|
 | Governance | **AI Committee** | AI strategy, AI policy and platform strategy, risk posture, choice of models and suppliers, exceptions, warnings and intervention across all agents. Holds the overall view of usage, surveys, follow-up and cost for all agents and platforms, against common KPIs, with input from the networks. Think of it as strategic HR for agents: it sets the frame and supports everyone who builds them. |
 | Governance | **AI Finance & Cost** | Total AI cost, allocation of shared platform cost to each agent and business area, forecasts and recommendations. |
+| Governance | **Agent register** | Owned by the AI Committee. Every agent, whether built, bought or rented: type, owner, Agent Leader, platform, sources, users, status, cost and end date. |
 | Business | **Agent Owner** | Purpose, value, budget, acceptance of residual business risk, and the decision to continue, scale or retire the agent. Usually an addition to a business-development role, not a new job. Makes sure the agent has an Agent Leader and an Information Steward. |
 | Business | **Agent Leader** | Runs the agent day to day: instructions, playbooks, representative business tests, KPIs, adoption, training, defects and the improvement backlog. Usually a fraction of a role. Complex agents also need an IT person. |
 | Information | **Information Owner** | Owns and approves the information in a domain, and makes sure there is capacity to keep it current. |
@@ -97,6 +98,21 @@ When several agents use the same information, for example a shared archive or a 
 
 **End-user change network.** Champions and managers in every department. Carries general and shared AI topics to everyone: AI literacy programmes, onboarding, and changes such as a new primary platform. Collects feedback and real questions from users, so adoption no longer rests on one person.
 
+All three networks are internal and give input to the AI Committee. Architects and developers also need networks outside the organisation, such as communities, vendors and partners. Those are run differently and are not part of this operating model.
+
+## Agent types: like forms of employment
+
+![Four agent types: permanent employee, temp, consultant and rented service, all recorded in the agent register owned by the AI Committee.](./images/maturity-model-microsoft365-ps-ai-operations/agent-types.png)
+
+The type of an agent decides how it is admitted, owned and ended. All four need an owner and all four are in the agent register.
+
+| Type | What it is | How it is governed |
+|---|---|---|
+| Permanent employee | Built and owned by us, on an approved platform | Long-lived, full admission gates, named Agent Owner and Agent Leader. Usually a heartbeat agent. |
+| Temp | Time-limited: a pilot, a campaign, covering a gap | End date set at admission; retired automatically unless re-admitted. Lighter gates, same data rules. |
+| Consultant | Built or configured for us by an external partner | We own the purpose, the sources and the data. The contract says who maintains it, and knowledge transfer is a requirement. |
+| Rented service | An agent inside a bought or rented product | We do not control the model. Governed through supplier oversight, data boundaries and an exit plan. Usually a utility agent. |
+
 ## Example of a platform strategy
 
 The platform strategy is one of the artefacts the AI Committee owns. The AI policy points to it.
@@ -119,15 +135,17 @@ The platform strategy is one of the artefacts the AI Committee owns. The AI poli
 
 | | Utility | Heartbeat | Frontier |
 |---|---|---|---|
-| Think of it as | The concert hall | The house orchestra | Guest soloists |
+| Think of it as | Electricity and water | Your own recipes | The food-safety lab |
 | What it is | Standard AI in everyday tools, used by everyone | Agents for the processes and knowledge that make the business unique | Cutting-edge capability with high control |
-| How to run it | Like email: stable, standard, few customisations | The business owns it and keeps tuning it | Experts who work at the edge with others, every day |
+| How to run it | Like email: stable, standard, few customisations | The business owns it and keeps tuning it | Experts who do only this, for many organisations |
 | People | Can be outsourced | Mostly in-house: this knowledge is the advantage | Hired experts, or a dedicated expert team if the department is big enough |
-| Source | Buy or rent | Build, on the primary platform | Rent, unless there is reason to keep it in-house |
+| Source | Buy or rent | Build | Rent, unless there is reason to keep it in-house |
 
 You cannot hire one expert and expect them to stay at the frontier on their own. A security operations centre (SOC) is a typical frontier capability: if you do not have enough reason to run it in-house, it is better placed with a provider that does only this, for many customers.
 
 ### Platforms in this example
+
+Platforms are chosen per agent, not per kind of capability.
 
 - **Primary platform: Microsoft 365 Copilot and Copilot Studio**, for agents closely tied to internal processes and knowledge in the intranet, archives, mail, Planner and similar.
 - **Secondary platform: a best-of-breed platform**, for outward-facing work such as legal, where external frameworks and events matter more than internal information.
@@ -139,19 +157,50 @@ There should always be room to evaluate alternatives. When the strategy changes,
 
 ![Example of an AI policy: nine areas from personal use to incidents and exceptions.](./images/maturity-model-microsoft365-ps-ai-operations/ai-policy.png)
 
-The AI policy says what is allowed and why. It points to the platform strategy for where. An example policy covers:
+The AI policy says what is allowed and why. It points to the platform strategy for where, and to an information matrix for what. An example policy covers:
 
 | Area | Example content |
 |---|---|
-| Personal use and consumer AI | Work information is only used in approved platforms. Private accounts, free chatbots, browser extensions and AI note-takers are not used for work. |
+| Personal use and consumer AI | Private accounts and consumer AI products are only used with public information. Work happens in the approved platforms. |
 | Approved platforms | Primary, secondary and local platforms as set in the platform strategy. New tools are proposed to the AI Committee. |
-| Information that must never be uploaded | Personal data outside approved agents, special category data, customer case data, confidential business information, credentials and security details. |
-| Topics not to discuss | Outside the primary platform: unpublished financial results, negotiations and M&A, ongoing security incidents, individual HR cases. |
-| Uses that are not allowed | Decisions about individuals without human review. Advice to customers without qualified review. Content that misleads or impersonates. Uses prohibited by law, such as the [EU AI Act](https://artificialintelligenceact.eu/). |
-| Human responsibility | The person who uses the output owns it: check the sources, correct errors, and label AI-generated content where required. |
+| Where information may go | Follows the information matrix below. Credentials and secrets never go into any AI tool. |
+| Uses that are not allowed | Decisions about individuals without human review. Advice to customers without qualified review. Content that misleads or impersonates. Practices prohibited by the EU AI Act. |
+| Label AI-generated content | The [EU AI Act, Article 50](https://artificialintelligenceact.eu/article/50/), requires that people are told when they interact with an AI system, that AI-generated content is marked as such, and that deepfakes and AI-generated text published to inform the public are disclosed. The policy says how the organisation labels AI-generated content. |
+| Human responsibility | The person who uses the output owns it: check the sources and correct errors before it is used or shared. |
 | AI literacy | Training is required before access, and refreshed when platforms or rules change. |
-| Building agents | Only in approved environments, with a named Agent Owner, through the admission gates. |
+| Building agents | Only in approved environments, with a named Agent Owner, through the admission gates, and recorded in the agent register. |
 | Incidents and exceptions | Wrong or harmful answers and data leaks are reported. Exceptions are decided by the AI Committee and time-boxed. |
+
+### Where information may go
+
+![Information matrix: which information class may be used on the primary platform, the secondary platform, a local model and consumer AI.](./images/maturity-model-microsoft365-ps-ai-operations/information-matrix.png)
+
+The approved internal platforms are where the real work happens, so the policy has to be exact about what may be used where.
+
+| Information class | Primary platform | Secondary platform | Local model | Consumer and private AI |
+|---|---|---|---|---|
+| **Public**: published, or meant to be | Yes | Yes | Yes | Yes |
+| **Internal**: processes, intranet, mail, meetings, plans | Yes | Yes | Yes | No |
+| **Confidential**: customer and personal data, contracts, unpublished financials, HR matters | Yes, within the agent's approved scope and the user's permissions | Only if the platform is approved for that domain, with a data processing agreement | Yes | No |
+| **Restricted**: special category personal data, inside information, ongoing security incidents | Only in agents approved for that purpose | No | Only if approved for that purpose | No |
+| **Credentials**: passwords, keys, tokens, secrets | Never | Never | Never | Never |
+
+## From capability to value
+
+![Value chain from capability through behaviour and KPI to value, with the evidence needed at each step.](./images/maturity-model-microsoft365-ps-ai-operations/value-chain.png)
+
+Every agent has a value chain, and the Agent Owner is accountable for it.
+
+| | Capability | Behaviour | KPI | Value |
+|---|---|---|---|---|
+| Example | Correct answers from approved sources | Less searching, fewer questions to colleagues and support | Hours saved per week, tickets per day, answer quality | Released time, support capacity, lower risk |
+| Evidence | Shown in the pilot | Measured in production | Baseline before release | Valued with Finance |
+
+Three rules keep the value honest:
+
+- **Book only what is measured.** Hypotheses stay hypotheses until production data confirms them.
+- **Mark the evidence level** on every figure: measured, indication or assumption.
+- **Report wider benefits separately.** Better order in information and higher AI literacy are real benefits, but they are not added to the money, so nothing is counted twice.
 
 ## Gates and agent status
 
@@ -205,21 +254,6 @@ Users describe cases and upload screenshots, so personal data passes through age
 - [Control transcript access and retention (Copilot Studio)](https://learn.microsoft.com/microsoft-copilot-studio/admin-transcript-controls)
 - [Learn about retention for Copilot & AI apps (Microsoft Purview)](https://learn.microsoft.com/purview/retention-policies-copilot)
 
-## Introducing agents in waves
-
-![Introducing agents in waves: three overlapping waves, each with six steps from nomination to go/no-go.](./images/maturity-model-microsoft365-ps-ai-operations/waves.png)
-
-Agents are introduced one department, or one agent, at a time. In every wave:
-
-1. A manager says yes and nominates up to 15 people.
-2. Introduction and training.
-3. Workshop: where do we save time or raise quality?
-4. Build or prepare one to three small, modular agents.
-5. Test, verify and capture lessons learned.
-6. Go or no-go for production.
-
-Not everyone needs to be involved at the same time, IT and managers can dedicate resources when they are needed, and the organisation gets clear planning and less stress. Each wave reuses the roles, gates and networks that earlier waves built.
-
 ## Scenarios the operating model solves
 
 ![Four scenarios: a supplier raises prices or withdraws a model, many agents share the same CRM workflows, an agent seems compromised, and who sees the whole picture.](./images/maturity-model-microsoft365-ps-ai-operations/scenarios-solved.png)
@@ -240,12 +274,7 @@ When the roles, the strategy and the networks exist, a hard event becomes a rout
 
 ### Level 100 - Initial
 
-There are no agents the organisation knows about. Individuals may use consumer AI tools for work, without a policy.
-
-#### 100 Next Steps
-
-- Write a first AI policy, starting with what may never be uploaded and which tools are approved.
-- Inventory the AI tools and agents already in use, including those in rented and bought products.
+The chaos we all experience: AI is used everywhere and owned by no one.
 
 ### Level 200 - Managed
 
@@ -279,7 +308,8 @@ The value is visible, which creates demand for more agents. The risks grow at th
 - Only approved, current sources with an owner, review date and lifecycle are connected to an agent, whatever the repository.
 - The business tests the agent with representative questions; IT tests it independently. Tests are rerun when sources, instructions, permissions or the platform change.
 - The Agent Leader Network, the Information Steward Network and the End-user change network are running.
-- Agents are introduced in waves.
+- Every agent has a type and is recorded in the agent register.
+- Every agent has a value chain, from capability to valued benefit.
 - Retention of agent data is decided per data type, and the cost of each agent is reported separately.
 
 #### 300 Impacts
@@ -309,11 +339,7 @@ The organisation can change platform, model or supplier in a controlled way, bec
 
 ### Level 500 - Optimizing
 
-#### 500 Characteristics
-
-- AI is used to monitor other agents, data quality and anomalies.
-- The platform strategy is re-evaluated continuously against new models, suppliers and local options, and migrations are routine.
-- Lessons from agent operations feed back into training, templates and the policy automatically.
+Too early to say what this level will look like.
 
 ## Related Documents
 
