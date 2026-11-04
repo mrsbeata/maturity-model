@@ -70,7 +70,7 @@ No agent enters or stays in operation without
 
 | Layer | Role | Accountable for |
 |---|---|---|
-| Governance | **AI Committee** | AI strategy, AI policy and platform strategy, risk posture, choice of models and suppliers, exceptions, warnings and intervention across all agents. Think of it as strategic HR for agents: it sets the frame and supports everyone who builds them. |
+| Governance | **AI Committee** | AI strategy, AI policy and platform strategy, risk posture, choice of models and suppliers, exceptions, warnings and intervention across all agents. Holds the overall view of usage, surveys, follow-up and cost for all agents and platforms, against common KPIs, with input from the networks. Think of it as strategic HR for agents: it sets the frame and supports everyone who builds them. |
 | Governance | **AI Finance & Cost** | Total AI cost, allocation of shared platform cost to each agent and business area, forecasts and recommendations. |
 | Business | **Agent Owner** | Purpose, value, budget, acceptance of residual business risk, and the decision to continue, scale or retire the agent. Usually an addition to a business-development role, not a new job. Makes sure the agent has an Agent Leader and an Information Steward. |
 | Business | **Agent Leader** | Runs the agent day to day: instructions, playbooks, representative business tests, KPIs, adoption, training, defects and the improvement backlog. Usually a fraction of a role. Complex agents also need an IT person. |
@@ -219,6 +219,20 @@ Agents are introduced one department, or one agent, at a time. In every wave:
 6. Go or no-go for production.
 
 Not everyone needs to be involved at the same time, IT and managers can dedicate resources when they are needed, and the organisation gets clear planning and less stress. Each wave reuses the roles, gates and networks that earlier waves built.
+
+## Scenarios the operating model solves
+
+![Four scenarios: a supplier raises prices or withdraws a model, many agents share the same CRM workflows, an agent seems compromised, and who sees the whole picture.](./images/maturity-model-microsoft365-ps-ai-operations/scenarios-solved.png)
+
+When the roles, the strategy and the networks exist, a hard event becomes a routine decision with an owner and an end date.
+
+**A supplier raises its prices sharply, or withdraws a model.** The AI Committee and AI Finance & Cost take the task and calculate the impact. With the platform strategy as the basis, the AI Committee decides to move a set of agents from one platform to another and gives the Agent Owners an end date. Agent Leaders get help to redesign their agents from other Agent Leaders whose agents already run on the target platform. End users may not notice anything.
+
+**Many agents use roughly the same workflows against the CRM system.** The AI Architects decide that one MCP server should be built that meets everyone's needs and is simpler to work with going forward. It is tried with a few agents first; the AI Committee, not the Agent Owners, decides which. The Agent Leaders then get an end date for moving their agents.
+
+**An agent seems to be compromised.** Operations suspends the agent and reports to the Agent Owner and the AI Committee. The same path applies when a user account seems to be compromised. Every incident is shared and handled in the Agent Leader Network, so all agents benefit from the fix, and the agent is retested before it is restored.
+
+**Who sees the whole picture?** The networks give input to the AI Committee. The AI Committee, with AI Finance & Cost, holds the overall view of usage, surveys and follow-up for all agents, all platforms and all costs, measured against common and relevant KPIs. One picture, not one per agent.
 
 ## Applying the Maturity Model to AI Operations
 
