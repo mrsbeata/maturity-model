@@ -165,7 +165,7 @@ The AI policy says what is allowed and why. It points to the platform strategy f
 | Approved platforms | Primary, secondary and local platforms as set in the platform strategy. New tools are proposed to the AI Committee. |
 | Where information may go | Follows the information matrix below. Credentials and secrets never go into any AI tool. |
 | Uses that are not allowed | Decisions about individuals without human review. Advice to customers without qualified review. Content that misleads or impersonates. Practices prohibited by the EU AI Act. |
-| Label AI-generated content | The [EU AI Act, Article 50](https://artificialintelligenceact.eu/article/50/), requires that people are told when they interact with an AI system, that AI-generated content is marked as such, and that deepfakes and AI-generated text published to inform the public are disclosed. The policy says how the organisation labels AI-generated content. |
+| Label AI-generated content | The [EU AI Act, Article 50](https://artificialintelligenceact.eu/article/50/), requires that people are told when they interact with an AI system, that AI-generated content is marked as such, and that deepfakes and AI-generated text published to inform the public are disclosed. The policy follows these requirements. |
 | Human responsibility | The person who uses the output owns it: check the sources and correct errors before it is used or shared. |
 | AI literacy | Training is required before access, and refreshed when platforms or rules change. |
 | Building agents | Only in approved environments, with a named Agent Owner, through the admission gates, and recorded in the agent register. |
