@@ -348,7 +348,7 @@ With the operating model in place, each of the situations from the start of this
 
 **A temp agent proves its value.** The Agent Owner shows the value chain with measured KPIs, and the AI Committee re-admits it as a permanent agent once the missing gates are passed.
 
-**A consultant-built agent is handed over.** The contract requires knowledge transfer. An internal Agent Leader takes over with help from the network, and the agent's type in the register changes from consultant to permanent employee.
+**A consultant-built agent is handed over.** The contract requires knowledge transfer. An internal Agent Leader takes over with help from the network, and the agent's type in the roster changes from consultant to permanent employee.
 
 **Who sees the whole picture?** The networks give input to the AI Committee. The AI Committee, with AI Finance & Cost, holds the overall view of usage, surveys and follow-up for all agents, all platforms and all costs, measured against common and relevant KPIs.
 
